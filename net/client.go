@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/Masterminds/log-go"
-	"github.com/thmeitz/ksqldb-go/internal"
+	"github.com/oscarzhou/ksqldb-go/internal"
 )
 
 const (

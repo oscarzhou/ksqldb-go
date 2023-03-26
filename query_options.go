@@ -3,7 +3,7 @@ package ksqldb
 import (
 	"strconv"
 
-	"github.com/thmeitz/ksqldb-go/internal"
+	"github.com/oscarzhou/ksqldb-go/internal"
 )
 
 const (

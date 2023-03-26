@@ -19,8 +19,8 @@ package parser_test
 import (
 	"testing"
 
+	"github.com/oscarzhou/ksqldb-go/parser"
 	"github.com/stretchr/testify/require"
-	"github.com/thmeitz/ksqldb-go/parser"
 )
 
 func TestParseKSQL_Error(t *testing.T) {

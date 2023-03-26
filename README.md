@@ -1,6 +1,6 @@
 # ksqlDB Go library
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/thmeitz/ksqldb-go.svg)](https://pkg.go.dev/github.com/thmeitz/ksqldb-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/oscarzhou/ksqldb-go.svg)](https://pkg.go.dev/github.com/oscarzhou/ksqldb-go)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=thmeitz_ksqldb-go&metric=coverage)](https://sonarcloud.io/summary/new_code?id=thmeitz_ksqldb-go)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=thmeitz_ksqldb-go&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=thmeitz_ksqldb-go)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=thmeitz_ksqldb-go&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=thmeitz_ksqldb-go)
@@ -57,7 +57,7 @@ Module install:
 This client is a Go module, therefore you can have it simply by adding the following import to your code:
 
 ```golang
-import "github.com/thmeitz/ksqldb-go"
+import "github.com/oscarzhou/ksqldb-go"
 ```
 
 Then run a build to have this client automatically added to your go.mod file as a dependency.
@@ -65,7 +65,7 @@ Then run a build to have this client automatically added to your go.mod file as 
 Manual install:
 
 ```bash
-go get -u github.com/thmeitz/ksqldb-go
+go get -u github.com/oscarzhou/ksqldb-go
 ```
 
 or use the client and and run
@@ -86,8 +86,8 @@ go mod tidy
 import (
   "github.com/Masterminds/log-go"
   "github.com/Masterminds/log-go/impl/logrus"
-  "github.com/thmeitz/ksqldb-go"
-  "github.com/thmeitz/ksqldb-go/net"
+  "github.com/oscarzhou/ksqldb-go"
+  "github.com/oscarzhou/ksqldb-go/net"
 )
 
 var (

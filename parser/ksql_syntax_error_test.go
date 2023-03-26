@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/antlr/antlr4/runtime/Go/antlr"
+	mocks "github.com/oscarzhou/ksqldb-go/mocks/parser"
+	"github.com/oscarzhou/ksqldb-go/parser"
 	"github.com/stretchr/testify/require"
-	mocks "github.com/thmeitz/ksqldb-go/mocks/parser"
-	"github.com/thmeitz/ksqldb-go/parser"
 )
 
 func TestKSqlSyntaxError_ErrorFunc(t *testing.T) {

@@ -3,9 +3,9 @@ package ksqldb_test
 import (
 	"testing"
 
+	"github.com/oscarzhou/ksqldb-go"
+	"github.com/oscarzhou/ksqldb-go/net"
 	"github.com/stretchr/testify/require"
-	"github.com/thmeitz/ksqldb-go"
-	"github.com/thmeitz/ksqldb-go/net"
 )
 
 var options = net.Options{

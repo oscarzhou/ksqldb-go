@@ -19,8 +19,8 @@ package internal_test
 import (
 	"testing"
 
+	"github.com/oscarzhou/ksqldb-go/internal"
 	"github.com/stretchr/testify/require"
-	"github.com/thmeitz/ksqldb-go/internal"
 )
 
 var tests = []struct {

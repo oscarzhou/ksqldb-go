@@ -23,11 +23,11 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/oscarzhou/ksqldb-go"
+	mocknet "github.com/oscarzhou/ksqldb-go/mocks/net"
+	"github.com/oscarzhou/ksqldb-go/net"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/thmeitz/ksqldb-go"
-	mocknet "github.com/thmeitz/ksqldb-go/mocks/net"
-	"github.com/thmeitz/ksqldb-go/net"
 )
 
 func TestValidateProperty_EmptyProperty(t *testing.T) {

@@ -29,8 +29,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/thmeitz/ksqldb-go/internal"
-	"github.com/thmeitz/ksqldb-go/parser"
+	"github.com/oscarzhou/ksqldb-go/internal"
+	"github.com/oscarzhou/ksqldb-go/parser"
 )
 
 type SessionVariablesMap map[string]interface{}
@@ -58,7 +58,6 @@ func (o *ExecOptions) EmptyQuery() bool {
 // To use this function pass in the @ExecOptions.
 //
 // Ref: https://docs.ksqldb.io/en/latest/developer-guide/ksqldb-rest-api/ksql-endpoint/
-//
 func (api *KsqldbClient) Execute(options ExecOptions) (*KsqlResponseSlice, error) {
 	var err error
 	var response = new(KsqlResponseSlice)

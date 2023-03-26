@@ -19,8 +19,8 @@ package ksqldb_test
 import (
 	"testing"
 
+	"github.com/oscarzhou/ksqldb-go"
 	"github.com/stretchr/testify/require"
-	"github.com/thmeitz/ksqldb-go"
 )
 
 func TestResponseError_ErrorMessage(t *testing.T) {

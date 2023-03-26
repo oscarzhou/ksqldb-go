@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/thmeitz/ksqldb-go/net"
+	"github.com/oscarzhou/ksqldb-go/net"
 )
 
 type RequestParams map[string]interface{}

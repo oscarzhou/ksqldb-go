@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/thmeitz/ksqldb-go/net"
+	"github.com/oscarzhou/ksqldb-go/net"
 )
 
 type BodyReader func(io.Reader) ([]byte, error)
